@@ -92,7 +92,7 @@
   top: 10px;
   right: 10px;
 }
-.article .expandButton {
+.article .allButtons .expandButton {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -101,6 +101,19 @@
   cursor: pointer;
   transform: translate(-50%);
   background-color: white;
+}
+.article .allButtons .closeButton {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  font-size: 12px;
+  color: grey;
+  cursor: pointer;
+  transform: translate(-50%);
+  background-color: white;
+}
+.article .toggleDisplay {
+  display: none;
 }
 .article-open {
   height: 400px;
